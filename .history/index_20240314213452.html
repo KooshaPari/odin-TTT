@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="./lib.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="parent">
+      <div id="header">
+        <h1>Koosha's Digital Library</h1>
+      </div>
+      <div id="body">
+        <div class="isVisible" id="bookForm">
+          <form id="bookAdd">
+            <input type="text" class="inpForm" id="bookName" placeholder="Book Name" />
+            <input type="text" class="inpForm" id="bookAuthor" placeholder="Book Author" />
+            <input type="text" class="inpForm" id="bookPages" placeholder="Book Pages" />
+            <input type="checkbox" class="inpForm" id="bookRead" placeholder="Book Read" />
+          </form>
+        </div>
+        <h2 id="title">Books</h2>
+        <button id="add-book">Add Book</button>
+        <ol id="book-list"></ol>
+      </div>
+      <div id="footer">
+        <p>Copyright Koosha Paridehpour 2024</p>
+      </div>
+    </div>
+  </body>
+</html>

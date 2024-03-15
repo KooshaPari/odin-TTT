@@ -1,0 +1,101 @@
+* {
+  font-family: sans-serif;
+}
+#parent {
+  background-color: #1f2022;
+  width: 100%;
+  height: 100%;
+}
+#header {
+  background-color: #353a40;
+  padding: 1.25%;
+  width: 100%;
+  height: 100%;
+}
+#header h1 {
+  color: #f6f5f5;
+
+  font-size: 2.5em;
+}
+#footer p {
+  color: #f6f5f5;
+  font-size: 0.5em;
+}
+
+#header,
+#footer,
+#body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#title {
+  color: #f6f5f5;
+}
+#body {
+  flex-direction: column;
+}
+#add-book {
+  cursor: pointer;
+  color: #1f2022;
+  background-color: #7ebab5;
+  border-radius: 1em;
+  border: none;
+  padding: 0.5em;
+  height: 3em;
+  width: 10em;
+  font-size: 12px;
+  font-weight: bold;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+}
+#bookForm {
+  visibility: hidden;
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  padding: 3em;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#bookAdd {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 1em;
+}
+.isVisible {
+  visibility: visible;
+}
+#add-book:hover {
+  background-color: #5e8d87;
+}
+#add-book:active {
+  background-color: #3e6d67;
+}
+.inpForm {
+  flex: 1;
+  background-color: #353a40;
+  padding: 1em;
+  border-radius: 2em;
+}
+#bookRead {
+  background-color: red;
+}
+#bookLBL {
+  color: #f6f5f5;
+  font-weight: bold;
+}
+#subBtn {
+  background: #7ebab5;
+  border-radius: 2em;
+  padding: 1em;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  -ms-border-radius: 2em;
+  -o-border-radius: 2em;
+}
