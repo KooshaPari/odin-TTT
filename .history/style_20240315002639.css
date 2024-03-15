@@ -35,7 +35,7 @@
 }
 #body {
   flex-direction: column;
-  height:90vh;
+  height:100vw;
 }
 #game {
   transition: 2.5s ease-in-out;

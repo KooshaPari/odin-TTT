@@ -25,7 +25,7 @@
 #header,
 #footer,
 #body {
-  
+  height:100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,7 +35,6 @@
 }
 #body {
   flex-direction: column;
-  height:90vh;
 }
 #game {
   transition: 2.5s ease-in-out;
